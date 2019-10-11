@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">زيارة عاشوراء</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="menu_gallery">زيارة عاشوراء</string>
+    <string name="menu_slideshow">دعاء علقمة</string>
+    <string name="menu_send" translatable="false">إرسال</string>
+    <string name="menu_share" translatable="false">مشاركة</string>
+    <string name="Communicate" translatable="false">التواصل معنا</string>
+</resources>

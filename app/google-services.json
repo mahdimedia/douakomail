@@ -1,0 +1,110 @@
+{
+  "project_info": {
+    "project_number": "892850052714",
+    "firebase_url": "https://ashora-analytics.firebaseio.com",
+    "project_id": "ashora-analytics",
+    "storage_bucket": "ashora-analytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892850052714:android:adde9239938512b5",
+        "android_client_info": {
+          "package_name": "alnabras.net.ashora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892850052714-7eo544hmnf2i2ql4062kt2r98om9ni3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alnabras.net.ashora",
+            "certificate_hash": "7de01fda4a333f075bcbc28166df4f23c8160316"
+          }
+        },
+        {
+          "client_id": "892850052714-r1v956518f6qv58td6r5r7uch4egbjk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alnabras.net.ashora",
+            "certificate_hash": "99842a6042bc3d64df9bcf5d1eab9de0a0311d59"
+          }
+        },
+        {
+          "client_id": "892850052714-k8ad7n25ge0p9mkug9ufg8em6ql1nu5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alnabras.net.ashora",
+            "certificate_hash": "4c43df04e8edb37d79736c5a563d18332396d188"
+          }
+        },
+        {
+          "client_id": "892850052714-uig649mclio6ijie4rees8pj7vj6he59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alnabras.net.ashora",
+            "certificate_hash": "7ccdf8b5062bc28562cc9d6491ff314727f4d2a2"
+          }
+        },
+        {
+          "client_id": "892850052714-s3opj3jcdt6ar4dmhf2h12298rg74pgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3-1jRtuA316-bG6nTfKnBc-vWHq23aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892850052714-s3opj3jcdt6ar4dmhf2h12298rg74pgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2912709864266365~6457345733"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892850052714:android:e9f9bb5674c5588a",
+        "android_client_info": {
+          "package_name": "alnabras.net.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892850052714-6okj12q4k0r1a6t8utvubrvjjlhahpt9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alnabras.net.myapplication",
+            "certificate_hash": "7de01fda4a333f075bcbc28166df4f23c8160316"
+          }
+        },
+        {
+          "client_id": "892850052714-s3opj3jcdt6ar4dmhf2h12298rg74pgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3-1jRtuA316-bG6nTfKnBc-vWHq23aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892850052714-s3opj3jcdt6ar4dmhf2h12298rg74pgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
