@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_home">
+    app:startDestination="@id/nav_gallery">
 
     <fragment
         android:id="@+id/nav_home"
@@ -20,13 +20,13 @@
     <fragment
         android:id="@+id/nav_dua_alqamah"
         android:name="alnabras.net.ashora.ui.dua_alqamah.dua_alqamahFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_dua_alqamah"/>
+        android:label="@string/menu_dua_alqamah"
+        tools:layout="@layout/fragment_dua_alqamah" />
 
     <fragment
-        android:id="@+id/nav_tools"
+        android:id="@+id/zayart_forty"
         android:name="alnabras.net.ashora.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/zayart_forty"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
@@ -40,4 +40,5 @@
         android:name="alnabras.net.ashora.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+
 </navigation>

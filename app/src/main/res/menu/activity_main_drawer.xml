@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
@@ -7,32 +8,48 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_home"
+            android:visible="false" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_star"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_dua_alqamah"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_dua_alqamah"
+            android:icon="@drawable/ic_star"
+            android:title="@string/menu_dua_alqamah" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/zayart_forty"
             android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:title="@string/zayart_forty"
+            />
+
     </group>
 
-    <item android:title="@string/Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
-        </menu>
-    </item>
+    <group android:enabled="false">
+        <item
+            android:id="@+id/share_whatsapp"
+            android:enabled="false"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/share_whatsapp" />
+        <item
+            android:id="@+id/nav_share"
+            android:enabled="false"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_send"
+            android:enabled="false"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_send" />
+
+        <item
+            android:id="@+id/moreapp"
+            android:enabled="false"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/more_app" />
+
+
+    </group>
 
 </menu>

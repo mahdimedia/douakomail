@@ -3,8 +3,18 @@
     <string name="app_name">زيارة عاشوراء</string>
     <string name="action_settings">الاعدادات</string>
     <string name="menu_gallery">زيارة عاشوراء</string>
-    <string name="menu_slideshow">دعاء علقمة</string>
     <string name="menu_send" translatable="false">إرسال</string>
     <string name="menu_share" translatable="false">مشاركة</string>
     <string name="Communicate" translatable="false">التواصل معنا</string>
+    <string name="menu_dua_alqamah">دعاء علقمة</string>
+    <string name="version_app" translatable="false">اصدار التطبيق 2.0</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="ok">موافق</string>
+    <string name="about">حول التطبيق</string>
+    <string name="Share">مشاركة</string>
+    <string name="Send">مراسلة</string>
+    <string name="menu_home" translatable="false">الرئيسية</string>
+    <string name="more_app">تطبيقات أخرى</string>
+    <string name="zayart_forty" translatable="false">زيارة الاربعين</string>
+    <string name="share_whatsapp">اخبر صديقك عبر الواتساب</string>
 </resources>

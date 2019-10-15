@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/text_tools"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="8dp"
         android:id="@+id/drawer_layout"
-        tools:layout_editor_absoluteY="7dp"
-        tools:ignore="MissingConstraints">
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/ad_id">
+        android:layout_height="match_parent"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center_horizontal|center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp">
 
-    </com.google.android.gms.ads.AdView>
+        <ScrollView
+            style="@android:style/Widget.ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#f5f5f5"
+            android:clipToPadding="false"
+            android:fillViewport="false"
+            android:padding="2dp"
+
+            android:scrollbarStyle="outsideInset">
+
+            <TextView
+                android:id="@+id/text_tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

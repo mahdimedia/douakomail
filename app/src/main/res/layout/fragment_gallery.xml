@@ -5,118 +5,46 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
-    tools:showIn="@layout/app_bar_main">
-
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="8dp"
         android:id="@+id/drawer_layout"
-        tools:layout_editor_absoluteY="7dp"
-        tools:ignore="MissingConstraints">
-
-
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/menu_gallery"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textAppearance="@android:style/TextAppearance.Holo.Large"
-            android:textColor="@android:color/holo_red_light"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints">
-
-        <ImageView
-            android:id="@+id/image1"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="3dp"
-            android:rotation="270"
-            android:src="@drawable/pattern"
-            android:contentDescription="@string/todo" />
-
-        <ImageView
-            android:id="@+id/image2"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="end"
-            android:layout_marginTop="3dp"
-            android:layout_marginEnd="3dp"
-            android:src="@drawable/pattern"
-            android:contentDescription="@string/todo"/>
-
-        <ImageView
-            android:id="@+id/image3"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="19dp"
-            android:rotation="90"
-            android:src="@drawable/pattern"
-            android:contentDescription="@string/todo"/>
-
-        <ImageView
-            android:id="@+id/image4"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="19dp"
-            android:rotation="180"
-            android:src="@drawable/pattern"
-            android:contentDescription="@string/todo"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center_horizontal|center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp">
 
         <ScrollView
             style="@android:style/Widget.ScrollView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="false"
-            android:layout_centerVertical="false"
-            android:layout_marginBottom="48dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginTop="30dp"
-            android:background="#98ffffff"
+            android:layout_height="0dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#f5f5f5"
             android:clipToPadding="false"
             android:fillViewport="false"
             android:padding="2dp"
+
             android:scrollbarStyle="outsideInset">
 
             <TextView
-                android:id="@+id/text_gallery"
+                android:id="@+id/text_dua_alqamah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:textAlignment="textStart"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </ScrollView>
 
-    </RelativeLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
