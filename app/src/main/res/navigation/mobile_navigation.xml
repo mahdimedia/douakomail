@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="alnabras.net.ashora.ui.gallery.GalleryFragment"
+        android:name="alnabras.net.ashora.ui.zayart_ashora.zayart_ashora_Fragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_zayart_ashora" />
 
     <fragment
         android:id="@+id/nav_dua_alqamah"
@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/zayart_forty"
-        android:name="alnabras.net.ashora.ui.tools.ToolsFragment"
+        android:name="alnabras.net.ashora.ui.zayart_forty.zayart_forty_Fragment"
         android:label="@string/zayart_forty"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_zayart_forty" />
 
     <fragment
         android:id="@+id/nav_share"

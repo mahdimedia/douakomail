@@ -1,14 +1,14 @@
-package alnabras.net.ashora.ui.tools;
+package alnabras.net.ashora.ui.zayart_forty;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ToolsViewModel extends ViewModel {
+public class zayart_forty_ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ToolsViewModel() {
+    public zayart_forty_ViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("السّلامُ على وليّ الله وحبيبه\n" +
                 "\n" +
@@ -24,7 +24,7 @@ public class ToolsViewModel extends ViewModel {
                 "\n" +
                 "السّلامُ عليْك يا بْن رسُول الله\n" +
                 "\n" +
-                "لسّلامُ عليْك يا بْن سيّد الاْوْصياء\n" +
+                "السّلامُ عليْك يا بْن سيّد الاْوْصياء\n" +
                 "\n" +
                 "اشْهدُ انّك امينُ الله وابْنُ امينه، عشْت سعيداً ومضيْت حميداً ومُتّ فقيداً مظْلُوماً شهيداً، واشْهدُ انّ الله مُنْجزٌ ما وعدك، ومُهْلكٌ منْ خذلك، ومُعذّبٌ منْ قتلك، واشْهدُ انّك وفيْت بعهْد الله وجاهدْت في سبيله حتّى اتياك الْيقينُ، فلعن اللهُ منْ قتلك، ولعن اللهُ منْ ظلمك، ولعن اللهُ اُمّةً سمعتْ بذلك فرضيتْ به\n" +
                 "\n" +

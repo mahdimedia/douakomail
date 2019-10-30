@@ -1,14 +1,14 @@
-package alnabras.net.ashora.ui.gallery;
+package alnabras.net.ashora.ui.zayart_ashora;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class zayart_ashora_ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public zayart_ashora_ViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("السَّلأمُ عَلَيْكَ يَا أبَا عَبْدِاللهِ ، السَّلأمُ عَلَيْكَ يَا ابْنَ رَسُولِ اللهِ ، السَّلأمُ عَلَيْكَ يَا ابْنَ أمِيرِ المُؤْمِنينَ ، وَابْنَ سَيِّدِ الوَصِيِّينَ ، السَّلأمُ عَلَيْكَ يَا ابْنَ فاطِمَةَ الزّهراءِ سَيِّدَةِ نِساءِ العالَمِينَ ، السَّلأمُ عَلَيْكَ يَا ثَارَ اللهِ وابْنَ ثارِهِ وَالْوِتْرَ المَوْتُورَ ، السَّلأمُ عَلَيْكَ وَعَلَى الارْواحِ الّتي حَلّتْ بِفِنائِكَ ، وَأنَاخَتْ بِرحْلِك عَلَيْكُمْ مِنّي جَميعاً سَلامُ اللهِ أبَداً ما بَقِيتُ وَبَقِيَ الليْلُ وَالنَّهارُ.\n" +
                 "\n" +

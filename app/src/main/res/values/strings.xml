@@ -1,28 +1,27 @@
 <resources>
-    <string name="app_name">Ziyarat Ashura</string>
+
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="nav_header_subtitle" translatable="false">www.alnabras.net</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
-    <string name="action_settings" translatable="false">Settings</string>
-    <string name="menu_home" translatable="false">Home</string>
-    <string name="menu_gallery" translatable="false">Ziyarat Ashura</string>
-    <string name="menu_dua_alqamah" translatable="false">Dua Alqamah</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-    <string name="Communicate">Communicate</string>
-    <string name="Send" translatable="false">Send</string>
-    <string name="Share" translatable="false">Share</string>
-    <string name="share_app" translatable="false">Share App</string>
-    <string name="about" translatable="false">About</string>
-    <string name="more_app" translatable="false">More App</string>
-    <string name="share_whatsapp" translatable="false">Share Whatsapp</string>
-    <string name="zayart_forty" translatable="false">Zayart Forty</string>
-    <string name="ok">OK</string>
-
     <string name="ad_unit_id" translatable="false">ca-app-pub-2912709864266365/7934078934</string>
     <string name="ad_app_id" translatable="false">ca-app-pub-2912709864266365~6457345733</string>
-    <string name="version_app" translatable="false">Application Version 2.0</string>
-
+    <string name="app_name">زيارة عاشوراء</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="menu_gallery">زيارة عاشوراء</string>
+    <string name="menu_send" translatable="false">إرسال</string>
+    <string name="menu_share" translatable="false">مشاركة</string>
+    <string name="Communicate" translatable="false">التواصل معنا</string>
+    <string name="menu_dua_alqamah">دعاء علقمة</string>
+    <string name="version_app" translatable="false">اصدار التطبيق 2.0</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="ok">موافق</string>
+    <string name="about">حول التطبيق</string>
+    <string name="Share">مشاركة</string>
+    <string name="Send">مراسلة</string>
+    <string name="menu_home" translatable="false">الرئيسية</string>
+    <string name="more_app">تطبيقات أخرى</string>
+    <string name="zayart_forty" translatable="false">زيارة الاربعين</string>
+    <string name="share_whatsapp">اخبر صديقك عبر الواتساب</string>
 
 </resources>

@@ -7,7 +7,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_star"
             android:title="@string/menu_home"
             android:visible="false" />
         <item
@@ -20,35 +20,8 @@
             android:title="@string/menu_dua_alqamah" />
         <item
             android:id="@+id/zayart_forty"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/zayart_forty"
-            />
-
-    </group>
-
-    <group android:enabled="false">
-        <item
-            android:id="@+id/share_whatsapp"
-            android:enabled="false"
-            android:icon="@drawable/ic_menu_send"
-            android:title="@string/share_whatsapp" />
-        <item
-            android:id="@+id/nav_share"
-            android:enabled="false"
-            android:icon="@drawable/ic_menu_share"
-            android:title="@string/menu_share" />
-        <item
-            android:id="@+id/nav_send"
-            android:enabled="false"
-            android:icon="@drawable/ic_menu_send"
-            android:title="@string/menu_send" />
-
-        <item
-            android:id="@+id/moreapp"
-            android:enabled="false"
-            android:icon="@android:drawable/ic_input_add"
-            android:title="@string/more_app" />
-
+            android:icon="@drawable/ic_star"
+            android:title="@string/zayart_forty" />
 
     </group>
 

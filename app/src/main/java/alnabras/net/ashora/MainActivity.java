@@ -1,28 +1,28 @@
 package alnabras.net.ashora;
 
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.analytics.FirebaseAnalytics;
+
+
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_dua_alqamah,
-                R.id.zayart_forty, R.id.nav_share, R.id.nav_send, R.id.moreapp )
+                R.id.zayart_forty, R.id.nav_share, R.id.nav_send )
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() != R.id.action_settings) {
@@ -93,39 +94,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-   // public void rate_app(View view) {
-   //     Intent intent = new Intent("android.intent.action.VIEW");
-   //     intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.mhdamz.ad3iya.ta3kibat.p1"));
-  //      startActivity(intent);
- //   }
-
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-        if (id == R.id.moreapp) {
-
-
-            Intent intent = new Intent("android.intent.action.VIEW");
-            intent.setData(Uri.parse("https://play.google.com/store/apps/developer?id=AYASOFT"));
-            startActivity(intent);
-
-
-    } else
-            if (id == R.id.share_whatsapp) {
-                return true;
-
-
-        } else
-            if (id == R.id.nav_send) {
-
-        } else
-            if (id == R.id.nav_share) {
-
-            }
-
-        return super.onOptionsItemSelected(item);
-    }
 }
 
