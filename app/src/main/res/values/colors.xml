@@ -13,5 +13,8 @@
     <color name="common_google_signin_btn_text_light_pressed">#de000000</color>
     <color name="design_textinput_error_color_dark">#ffff6e6e</color>
     <color name="design_textinput_error_color_light">#ffd50000</color>
+    <color name="bg_back">#272e2e</color>
+    <color name="bg_front">#f2f2f2</color>
+
 
 </resources>
